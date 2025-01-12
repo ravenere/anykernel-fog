@@ -10,9 +10,7 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=fog
-device.name2=rain
-device.name3=wind
+device.name1=cactus
 supported.versions=
 supported.patchlevels=
 '; } # end properties
@@ -27,7 +25,7 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
 ## boot shell variables
 block=boot;
-is_slot_device=1;
+is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
 
